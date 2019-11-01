@@ -11,7 +11,7 @@ export const text = () => <Button onClick={action('clicked')}>Hello Button</Butt
 export const emoji = () => (
   <Button onClick={action('clicked')}>
     <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
+      😀 😎 👍 💯 🎁
     </span>
   </Button>
 );
