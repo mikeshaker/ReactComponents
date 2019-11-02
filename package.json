@@ -55,6 +55,8 @@
     "@babel/preset-react": "7.6.3",
     "@storybook/addon-actions": "5.2.5",
     "@storybook/addon-links": "5.2.5",
+    "@storybook/addon-notes": "5.2.5",
+    "@storybook/addon-storysource": "5.2.5",
     "@storybook/addons": "5.2.5",
     "@storybook/react": "5.2.5",
     "acorn": "7.1.0",

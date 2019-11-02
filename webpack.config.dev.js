@@ -124,6 +124,11 @@ export default {
             }
           }
         ]
+      },
+      {
+        test: /\.stories\.jsx?$/,
+        loaders: [require.resolve('@storybook/source-loader')],
+        enforce: 'pre',
       }
     ]
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
+import { storiesOf } from '@storybook/react';
 
 export default {
   title: 'Button',
@@ -15,3 +16,6 @@ export const emoji = () => (
     </span>
   </Button>
 );
+storiesOf('Button', module).add('with some Notes', () => text, {
+  notes: 'A very simple example of addon notes',
+});
